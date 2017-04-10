@@ -19,7 +19,19 @@ $container['services']
 You can see here that we register a container object called service, which we can then fetch at a later time
 by doing `$container['service']`.
 
-I allow you to extend a service by doing:
+A simpler way of registering containers:
+
+```php
+$container = new Container([
+  'app.service' => function ($c) {
+    return new Service();
+  },
+]);
+```
+
+The above uses the concept of closures. You can still fetch the conainter the same way as listed above.
+
+I also allow you to extend a service by doing:
 
 ```php
 
