@@ -121,7 +121,7 @@ I was also looking at a coupe of basic game engines in Javascript and while this
 
 There are some questions and some known bugs with this system as it stands that I found as I was writing this blog post:
 
-- You can have events with duplicate names, this should throw an error.
+- ~~You can have events with duplicate names, this should throw an error.~~
 - Why do we put such emphasis on passing returned value of `before` to `main` and then from main to `after` and then back to `trigger` for return a final value? What if the value is just undefined or null?
 
 ## Is The Project Maintained?
