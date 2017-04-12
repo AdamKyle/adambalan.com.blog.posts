@@ -8,7 +8,14 @@ Much like my various "Ice Cream" projects, Arctic is leading towards something m
 
 ## Getting Started
 
-To get started all you have to do: `yarn add arctic-events` and then in your JS file `const EventHandler = require('arctic-events');`
+To get started all you have to do:
+
+```js
+  yarn add arctic-events
+
+  // and then in your JS file
+  const EventHandler = require('arctic-events');
+```
 
 Simple. No fuss no muss.
 
