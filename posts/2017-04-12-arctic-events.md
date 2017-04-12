@@ -124,6 +124,12 @@ There are some questions and some known bugs with this system as it stands that 
 - ~~You can have events with duplicate names, this should throw an error.~~
 - Why do we put such emphasis on passing returned value of `before` to `main` and then from main to `after` and then back to `trigger` for return a final value? What if the value is just undefined or null?
 
+## Update to the post
+
+### [ 2017/04/12 ]
+
+At the time of this update I have fixed one of the issues. Which is duplicate events.
+
 ## Is The Project Maintained?
 
 All Arctic projects are maintained, although not on a regular or consistent basis, how ever they are maintained and updated every so often. Most of the times its just updating dependencies, running tests and seeing if anything broke.
